@@ -1,0 +1,175 @@
+
+body{
+    background-image: url("main.jpg");
+    background-size: cover;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+    min-width: 100%;
+}
+input{
+    text-align: center;
+    border-radius: 5px;
+    max-width: 25%;
+    border: 1px solid black;
+    padding: 6px 0px;
+    background-color: lightgray;
+    font-weight: bold;
+    margin: 0px 5px;
+
+
+
+}
+button{
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0px 0px;
+    font-weight: bold;
+
+
+
+}
+#litersBtn{
+    padding: 5px 18px;
+
+}
+.container{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    max-width:40% ;
+    min-height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    text-align: center;
+    padding: 5px 0px
+    
+    
+}
+.main{
+    background-color: lightblue;
+    max-width:95%;
+    min-height: 18vh;
+    margin: 10px auto;
+
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 10px auto;
+    
+
+    
+
+}
+
+   
+.length{
+    background-color: white;
+    max-width:95%;
+    min-height: 15vh;
+
+    border: 1px solid red;
+    margin: 10px auto;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.valueToFeet{
+    margin: 10px 0px 20px 0px ;
+}
+.valueToGallons{
+    margin: 10px 0px 20px 0px ;
+}
+.valueToPounds{
+    margin: 10px 0px 20px 0px ;
+}
+.volume{
+    background-color: white;
+    max-width:95%;
+    min-height: 15vh;
+    margin: 10px auto;
+
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 10px auto;
+
+
+
+}
+.mass{
+    background-color: white;
+    max-width:95%;
+    min-height: 15vh;
+    margin: 10px auto;
+
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 2%;
+    margin: 10px auto;
+
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .container{
+        max-width: 80%;
+        margin-top: 15%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        
+
+    }
+    input{
+        max-width: 20%;
+        margin: 4px;
+        font-size: 10px;
+        padding: 5px 5px;
+
+
+            
+    }
+    ::-webkit-input-placeholder {
+        text-align: center;
+        min-width: 100%;
+        font-size: 6px;
+
+    }
+    button{
+        font-size: 10px;
+
+    }
+  
+    .main{
+        min-height: 10vh;
+        max-width: 95%;
+        margin-top: 10px;
+
+       
+    }
+    .length{
+        max-width: 95%;
+        padding-bottom: 0px;
+        padding: 0%;
+        
+
+    }
+    .volume{
+        max-width: 95%;
+        padding-bottom: 0px;
+       
+
+    }
+    .mass{
+        max-width: 95%;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+      
+
+
+    }
+}
